@@ -3,4 +3,8 @@
 @theme {
   --color-themeyellow: #f5e60d;
   --color-themepurple: #502ec3;
+
+  /* Add your custom heights here: */
+  --height-hero-sm: 600px;
+  --height-hero-lg: 700px;
 }
