@@ -43,7 +43,35 @@ const Hero = () => {
            h-hero-sm flex flex-col justify-center items-start
             gap-10 bg-cover bg-center"
             style={{ backgroundImage: `url(${dslr})` }}
-          ></div>
+          >
+            <h1
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              className="text-themeyellow border rounded-lg
+             border-themeyellow px-6 py-2 text-xl"
+            >
+              Get upto 70% Discount off
+            </h1>
+            <h1
+              data-aos="zoom-in"
+              data-aos-delay="100"
+              className="text-white lg:text-[120px]
+               text-[60px] uppercase font-bold
+                lg:leading-[120px] leading-[70px]"
+            >
+              DSLR 360 <br /> Camera
+            </h1>
+            <h1
+              data-aos="zoom-in"
+              data-aos-delay="100"
+              className="text-white text-2xl"
+            >
+              100% trusted{" "}
+              <span className="text-themeyellow font-semibold">
+                Electronics Gadgets
+              </span>
+            </h1>
+          </div>
         </div>
       </Slider>
     </div>
