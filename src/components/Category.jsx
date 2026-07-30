@@ -22,7 +22,7 @@ const Category = () => {
     <div
       id="category"
       className="w-full bg-gray-100 lg:px-20
-       px-5 pt-130px pb-80px flex lg:flex-row
+       px-5 pt-[130px] pb-[100px] flex lg:flex-row
         flex-col justify-center items-center
          gap-20"
     >
@@ -39,7 +39,7 @@ const Category = () => {
         <h1 className="text-[40px] leading-50px font-semibold lg:text-start text-center text-black">
           Popular Category
         </h1>
-        <button className="bg-themepurple text-white font-semibold hover:text-black py-3 mt-60px px-8 rounded-lg hover:bg-themeyellow transition-colors duration-300">
+        <button className="bg-themepurple text-white font-semibold hover:text-black py-3 mt-[60px] px-8 rounded-lg hover:bg-themeyellow transition-colors duration-300">
           VIEW ALL
         </button>
       </div>
