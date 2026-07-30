@@ -44,11 +44,80 @@ const Category = () => {
         </button>
       </div>
       <div className="lg:w-[85%] w-full grid lg:grid-cols-5 grid-cols-1 justify-center items-start gap-10">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="100"
+          className="flex flex-col justify-center items-center gap-6"
+        >
+          <img
+            src={cat1}
+            alt="Category 1"
+            className="rounded-full cursor-pointer"
+          />
+          <h1 className="text-black text-xl font-semibold hover:text-themepurple cursor-pointer">
+            Portable Speakers
+          </h1>
+        </div>
+
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="200"
+          className="flex flex-col justify-center items-center gap-6"
+        >
+          <img
+            src={cat2}
+            alt="Category 2"
+            className="rounded-full cursor-pointer"
+          />
+          <h1 className="text-black text-xl font-semibold hover:text-themepurple cursor-pointer">
+            Portable Speakers
+          </h1>
+        </div>
+
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="300"
+          className="flex flex-col justify-center items-center gap-6"
+        >
+          <img
+            src={cat3}
+            alt="Category 3"
+            className="rounded-full cursor-pointer"
+          />
+          <h1 className="text-black text-xl font-semibold hover:text-themepurple cursor-pointer">
+            Portable Speakers
+          </h1>
+        </div>
+
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="400"
+          className="flex flex-col justify-center items-center gap-6"
+        >
+          <img
+            src={cat4}
+            alt="Category 4"
+            className="rounded-full cursor-pointer"
+          />
+          <h1 className="text-black text-xl font-semibold hover:text-themepurple cursor-pointer">
+            Portable Speakers
+          </h1>
+        </div>
+
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="500"
+          className="flex flex-col justify-center items-center gap-6"
+        >
+          <img
+            src={cat5}
+            alt="Category 5"
+            className="rounded-full cursor-pointer"
+          />
+          <h1 className="text-black text-xl font-semibold hover:text-themepurple cursor-pointer">
+            Portable Speakers
+          </h1>
+        </div>
       </div>
     </div>
   );
