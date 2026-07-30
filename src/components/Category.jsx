@@ -70,7 +70,7 @@ const Category = () => {
             className="rounded-full cursor-pointer"
           />
           <h1 className="text-black text-xl font-semibold hover:text-themepurple cursor-pointer">
-            Portable Speakers
+            Reliable Power Banks
           </h1>
         </div>
 
@@ -85,7 +85,7 @@ const Category = () => {
             className="rounded-full cursor-pointer"
           />
           <h1 className="text-black text-xl font-semibold hover:text-themepurple cursor-pointer">
-            Portable Speakers
+            Portable Extensions
           </h1>
         </div>
 
@@ -100,7 +100,7 @@ const Category = () => {
             className="rounded-full cursor-pointer"
           />
           <h1 className="text-black text-xl font-semibold hover:text-themepurple cursor-pointer">
-            Portable Speakers
+            DVD Players
           </h1>
         </div>
 
@@ -115,7 +115,7 @@ const Category = () => {
             className="rounded-full cursor-pointer"
           />
           <h1 className="text-black text-xl font-semibold hover:text-themepurple cursor-pointer">
-            Portable Speakers
+            Video Cameras
           </h1>
         </div>
       </div>
