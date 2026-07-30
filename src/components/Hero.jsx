@@ -71,6 +71,104 @@ const Hero = () => {
                 Electronics Gadgets
               </span>
             </h1>
+            <button
+              data-aos="zoom-in"
+              data-aos-delay="100"
+              className="bg-themeyellow text-black px-6
+               py-3 rounded-lg font-semibold"
+            >
+              ONLINE COLLECTIONS
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <div
+            className="w-full lg:px-20 px-5 lg:h-hero-lg
+           h-hero-sm flex flex-col justify-center items-start
+            gap-10 bg-cover bg-center"
+            style={{ backgroundImage: `url(${earbuds})` }}
+          >
+            <h1
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              className="text-themeyellow border rounded-lg
+             border-themeyellow px-6 py-2 text-xl"
+            >
+              Get upto 85% Discount off
+            </h1>
+            <h1
+              data-aos="zoom-in"
+              data-aos-delay="100"
+              className="text-white lg:text-[120px]
+               text-[60px] uppercase font-bold
+                lg:leading-[120px] leading-[70px]"
+            >
+              Wireless <br /> Earbuds
+            </h1>
+            <h1
+              data-aos="zoom-in"
+              data-aos-delay="100"
+              className="text-white text-2xl"
+            >
+              100% trusted{" "}
+              <span className="text-themeyellow font-semibold">
+                Electronics Gadgets
+              </span>
+            </h1>
+            <button
+              data-aos="zoom-in"
+              data-aos-delay="100"
+              className="bg-themeyellow text-black px-6
+               py-3 rounded-lg font-semibold"
+            >
+              ONLINE COLLECTIONS
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <div
+            className="w-full lg:px-20 px-5 lg:h-hero-lg
+           h-hero-sm flex flex-col justify-center items-start
+            gap-10 bg-cover bg-center"
+            style={{ backgroundImage: `url(${headset})` }}
+          >
+            <h1
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              className="text-themeyellow border rounded-lg
+             border-themeyellow px-6 py-2 text-xl"
+            >
+              Get upto 70% Discount off
+            </h1>
+            <h1
+              data-aos="zoom-in"
+              data-aos-delay="100"
+              className="text-white lg:text-[120px]
+               text-[60px] uppercase font-bold
+                lg:leading-[120px] leading-[70px]"
+            >
+              Premium <br /> Headsets
+            </h1>
+            <h1
+              data-aos="zoom-in"
+              data-aos-delay="100"
+              className="text-white text-2xl"
+            >
+              100% trusted{" "}
+              <span className="text-themeyellow font-semibold">
+                Electronics Gadgets
+              </span>
+            </h1>
+            <button
+              data-aos="zoom-in"
+              data-aos-delay="100"
+              className="bg-themeyellow text-black px-6
+               py-3 rounded-lg font-semibold"
+            >
+              ONLINE COLLECTIONS
+            </button>
           </div>
         </div>
       </Slider>
