@@ -36,7 +36,7 @@ const Category = () => {
         <h1 className="text-xl font-semibold text-center text-themepurple">
           Favorite Items
         </h1>
-        <h1 className="whitespace-nowrap text-[40px] leading-50px font-semibold text-center text-black">
+        <h1 className="text-[40px] leading-50px font-semibold lg:text-start text-center text-black">
           Popular Category
         </h1>
         <button className="bg-themepurple text-white font-semibold hover:text-black py-3 mt-[60px] px-8 rounded-lg hover:bg-themeyellow transition-colors duration-300">
