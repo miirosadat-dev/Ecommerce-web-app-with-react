@@ -102,7 +102,7 @@ const Hero = () => {
               data-aos-delay="100"
               className="text-white lg:text-[120px]
                text-[60px] uppercase font-bold
-                lg:leading-[120px] leading-[70px]"
+                lg:leading-120px leading-70px"
             >
               Wireless <br /> Earbuds
             </h1>
@@ -147,7 +147,7 @@ const Hero = () => {
               data-aos-delay="100"
               className="text-white lg:text-[120px]
                text-[60px] uppercase font-bold
-                lg:leading-[120px] leading-[70px]"
+                lg:leading-120px leading-70px"
             >
               Premium <br /> Headsets
             </h1>
