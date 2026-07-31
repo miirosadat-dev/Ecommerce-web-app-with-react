@@ -23,7 +23,7 @@ const Category = () => {
       id="category"
       className="w-full bg-gray-100 lg:px-20
        px-5 pt-[130px] pb-[100px] flex lg:flex-row
-        flex-col justify-center items-center
+         flex-col justify-center items-center
          gap-20"
     >
       <div
@@ -43,7 +43,7 @@ const Category = () => {
           VIEW ALL
         </button>
       </div>
-      <div className="lg:w-[85%] w-full grid lg:grid-cols-5 grid-cols-1 justify-center items-start gap-10">
+      <div className="lg:w-[85%] pl-[20px] pr-[20px] w-full grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 justify-center items-start gap-10">
         <div
           data-aos="zoom-in"
           data-aos-delay="100"
