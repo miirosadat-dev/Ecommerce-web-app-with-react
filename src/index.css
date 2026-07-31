@@ -8,3 +8,13 @@
   --height-hero-sm: 600px;
   --height-hero-lg: 700px;
 }
+
+#icons {
+  display: none;
+}
+
+#product-box:hover {
+  #icons {
+    display: flex !important;
+  }
+}
