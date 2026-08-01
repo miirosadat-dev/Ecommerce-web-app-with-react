@@ -22,7 +22,7 @@ const Banner = () => {
         className="w-full lg:h-[400px] h-[300px] bg-cover bg-center flex flex-col rounded-lg justify-center items-center gap-3"
         style={{ backgroundImage: `url(${deal})` }}
       >
-        <h1 className="text-themeyellow font-open-sans lg:text-[60px] text-[40px] font-bold uppercase">
+        <h1 className="text-themeyellow font-open-sans lg:text-[60px] text-[40px] font-bold text-center uppercase">
           Deal of the Day
         </h1>
         <p className="text-white lg:text-[20px] text-[16px]">
