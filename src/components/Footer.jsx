@@ -72,7 +72,6 @@ const Footer = () => {
           className="w-[130px] opacity-70 cursor-pointer hover:opacity-100"
         />
       </div>
-
       {/* 2nd box goes here */}
       {/* 2nd box goes here */}
       <div
@@ -220,7 +219,6 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-
       {/* 3rd box goes here */}
       <div className="w-full lg:px-20 px-5 py-[40px] bg-gray-100">
         <hr className="border-t border-gray-300 py-3" />
@@ -258,6 +256,20 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div>
+        {/* <-- This is your existing div */}
+        <a
+          href="https://wa.me/256787760797?text=Hello%20Miiro%20Sadat,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+          target="_blank"
+          class="whatsapp-float"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+            width="70"
+          />
+        </a>
+      </div>
+      {/* <-- End of your existing div */}
     </div>
   );
 };
