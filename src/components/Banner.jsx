@@ -15,7 +15,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="w-full lg:px-20 px-5 py-[80px]">
+    <div id="banner" className="w-full lg:px-20 px-5 py-[80px]">
       <div
         data-aos="zoom-in"
         data-aos-delay="100"

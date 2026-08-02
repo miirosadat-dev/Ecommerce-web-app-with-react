@@ -261,7 +261,7 @@ const Footer = () => {
         <a
           href="https://wa.me/256787760797?text=Hello%20Miiro%20Sadat,%20I%20would%20like%20to%20inquire%20about%20your%20services."
           target="_blank"
-          class="whatsapp-float"
+          className="whatsapp-float"
         >
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
