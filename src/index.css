@@ -12,7 +12,7 @@
 }
 
 #icons {
-  display: none;
+  display: flex;
 }
 
 #product-box:hover {
