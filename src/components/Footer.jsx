@@ -257,15 +257,17 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        {/* <-- This is your existing div */}
         <a
           href="https://wa.me/256787760797?text=Hello%20Miiro%20Sadat,%20I%20would%20like%20to%20inquire%20about%20your%20services."
           target="_blank"
+          rel="noopener noreferrer"
           className="whatsapp-float"
+          aria-label="Chat on WhatsApp"
         >
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-            width="70"
+            alt="WhatsApp"
+            width={70}
           />
         </a>
       </div>
